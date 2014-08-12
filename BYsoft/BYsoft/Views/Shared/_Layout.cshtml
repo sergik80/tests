@@ -10,21 +10,20 @@
     <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
 
 </head>
-<body >
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
+<body>
 
-                @Html.ActionLink("BYsoft", "Index", "Home", new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="navbar-brand">about</ul>
-                <ul class="navbar-brand">work</ul>
-                <ul class="navbar-brand">contact</ul>
-                <ul class="navbar-brand">blog</ul>
-            </div>
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+
+        @Html.ActionLink("BYsoft", "Index", "Home", new { @class = "navbar-brand" })
+
+        <div class="navbar-collapse collapse">
+            <ul class="navbar-brand">about</ul>
+            <ul class="navbar-brand">work</ul>
+            <ul class="navbar-brand">contact</ul>
+            <ul class="navbar-brand">blog</ul>
         </div>
-    </div>
+    </nav>
+
 
 
     <div class="container">
@@ -32,7 +31,7 @@
 
         <hr />
 
-        <footer  class="navbar-fixed-bottom">
+        <footer class="navbar-fixed-bottom">
             <p>&copy; @DateTime.Now.Year</p>
         </footer>
     </div>
