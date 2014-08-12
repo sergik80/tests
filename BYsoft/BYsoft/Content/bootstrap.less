@@ -3624,7 +3624,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   border: 1px solid transparent;
 }
 .navbar:before,
@@ -3635,14 +3635,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar:after {
   clear: both;
 }
-.navbar:before,
-.navbar:after {
-  display: table;
-  content: " ";
-}
-.navbar:after {
-  clear: both;
-}
+
 @media (min-width: 768px) {
   .navbar {
     border-radius: 4px;
@@ -3656,14 +3649,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-header:after {
   clear: both;
 }
-.navbar-header:before,
-.navbar-header:after {
-  display: table;
-  content: " ";
-}
-.navbar-header:after {
-  clear: both;
-}
+
+
 @media (min-width: 768px) {
   .navbar-header {
     float: left;
@@ -3686,14 +3673,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-collapse:after {
   clear: both;
 }
-.navbar-collapse:before,
-.navbar-collapse:after {
-  display: table;
-  content: " ";
-}
-.navbar-collapse:after {
-  clear: both;
-}
+
+
 .navbar-collapse.in {
   overflow-y: auto;
 }
